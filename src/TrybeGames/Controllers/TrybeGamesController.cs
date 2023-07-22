@@ -149,6 +149,7 @@ public class TrybeGamesController
         Console.WriteLine("Insira o nome da data de lançamento do jogo:");
         string releaseDate = Console.ReadLine();
         Console.WriteLine("Insira o tipo do jogo");
+        PrintGameTypes();
         string type = Console.ReadLine();
         int gameTypeId = int.Parse(type);
         DateTime releaseDate2 = DateTime.ParseExact(releaseDate, "dd/MM/yyyy", null);
